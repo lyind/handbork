@@ -118,4 +118,4 @@ be deployed to specific provider installations once CI successfully finishes
 the tag build.
 
 If this App is a part of Giant Swarm release, then a new release needs
-to be created. [Details can be found here]({{< relref "/dev-and-releng/releases" >}}).
+to be created. [Details can be found here]({{< relref "/docs/dev-and-releng/releases" >}}).

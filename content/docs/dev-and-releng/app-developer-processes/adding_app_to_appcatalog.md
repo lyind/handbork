@@ -119,7 +119,7 @@ that can help users deploy and configure the app.
 For basic properties listen in `Chart.yaml`, remember to:
 
 - Ensure `Chart.yaml` has all required fields, including `appVersion` which is usually optional. See: <https://helm.sh/docs/topics/charts/>.
-- Ensure `Chart.yaml` has all fields needed so the app displays nicely in [Happa]({{< relref "/dev-and-releng/app-developer-processes/apps_in_happa.md" >}}).
+- Ensure `Chart.yaml` has all fields needed so the app displays nicely in [Happa]({{< relref "/docs/dev-and-releng/app-developer-processes/apps_in_happa.md" >}}).
 - If your templates contain empty values (i.e not defined with defaults in `values.yaml`), you can provide multiple value files for validation by creating yaml files (`*-values.yaml`) inside `helm/[APP-NAME]/ci`. For an example, see the pull request [#42](https://github.com/giantswarm/ignition-operator/pull/42) for `ignition-operator`.
 
 #### 3.2. Retagging and copying images to our registries
@@ -131,7 +131,7 @@ to the config file in its repo, push the changes and the images will be synchron
 
 More information about our registries can be found below:
 
-- ({{< relref "/product/architecture-specs-adrs/specs/registry-mirror.md" >}})
+- ({{< relref "/docs/product/architecture-specs-adrs/specs/registry-mirror.md" >}})
 - (https://intranet.giantswarm.io/docs/dev-and-releng/container-registry/)
 
 #### 3.3. Adjust chart for custom image registries
@@ -168,7 +168,7 @@ before you publish a chart.
 
 ### 4. Making the chart available in an app catalog
 
-More detailed information about [how to push app to app-catalog]({{< relref "/dev-and-releng/app-developer-processes/adding_app_to_appcatalog.md" >}}) is available on the intranet.
+More detailed information about [how to push app to app-catalog]({{< relref "/docs/dev-and-releng/app-developer-processes/adding_app_to_appcatalog.md" >}}) is available on the intranet.
 
 The very minimal circle CI configuration file that does the job using `abs` (see below)
 looks like this:
@@ -237,15 +237,15 @@ Open a PR to add your app to [giantswarm/docs](https://github.com/giantswarm/doc
 
 In order to include your App in the Giantswarm catalog, you need to create a release.
 
-Please follow [How to release a project]({{< relref "/dev-and-releng/releases/how-to-release-a-project" >}}) in order to do that.
+Please follow [How to release a project]({{< relref "/docs/dev-and-releng/releases/how-to-release-a-project" >}}) in order to do that.
 
 ## Related documentation
 
-- A lot of more detailed processes are documented already [on the intranet]({{< relref "/dev-and-releng/app-developer-processes/_index.md" >}})
-- [Adding Readmes and Icons to Apps in Happa]({{< relref "/dev-and-releng/app-developer-processes/apps_in_happa.md" >}}) describes the process of adding a Readme and an app icon to your new app
+- A lot of more detailed processes are documented already [on the intranet]({{< relref "/docs/dev-and-releng/app-developer-processes/_index.md" >}})
+- [Adding Readmes and Icons to Apps in Happa]({{< relref "/docs/dev-and-releng/app-developer-processes/apps_in_happa.md" >}}) describes the process of adding a Readme and an app icon to your new app
 - [Quality bars for Managed Apps](https://intranet.giantswarm.io/docs/dev-and-releng/app-developer-processes/application-quality-bars/) contain hints how to make your app fit for being a managed app
 - [Kubernetes Annotations and Labels in `giantswarm/fmt`](https://github.com/giantswarm/fmt/blob/master/kubernetes/annotations_and_labels.md) contain some commonly used annotations and labels in kubernetes resources
 - [App Release Checklist](https://intranet.giantswarm.io/docs/organizational-structure/teams/cabbage/app-release-checklist) contains hints and guidelines on what to do when releasing any Managed App
 - [Creating container registries for retagger](https://intranet.giantswarm.io/docs/dev-and-releng/container-registry/)
 - [CircleCI Intranet page](https://intranet.giantswarm.io/docs/dev-and-releng/ci/circle-ci/)
-- [MatchLabels are immutable]({{< relref "/dev-and-releng/app-developer-processes/matchlabels-are-immutable.md" >}})
+- [MatchLabels are immutable]({{< relref "/docs/dev-and-releng/app-developer-processes/matchlabels-are-immutable.md" >}})
