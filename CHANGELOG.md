@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Added note about AWS CNI Pod subnets in the Cilium to AWS switch document.
+
 ## [0.0.8] - 2023-03-17
 
 ### Added
