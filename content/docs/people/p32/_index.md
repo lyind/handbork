@@ -13,8 +13,6 @@ _Information Sources:_
 - [Success Indicators](https://docs.google.com/document/d/1O4MzuQk6FejgfY_FjA76Ku7Lfo4ea5qgCcXkcTVlMFE)
 - Contact TeamTeam if you have any questions
 
-TEST1
-
 
 
 
