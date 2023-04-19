@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Reword "Registry Mirrors" article to focus on current state of containerd but still mention historical context for Docker daemon behavior
 - Avoid the term "private" for registries that we control since the images can be pulled publically and anonymously
+- Fix invalid redirects on request URLs without trailing slash (enable relative redirects)
 
 ## [0.0.10] - 2023-03-23
 
