@@ -4,7 +4,7 @@ description: |
   This is the summary of how our book flatrate works
 confidentiality: public
 ---
-## We have a Book flatrate!
+## We have a Beer flatrate!
 
 This means if you have a book that you want to read - Buy it and get it reimbursed by Giant Swarm.
 Buy it via Spendesk, if you want to buy it in a local store to support your local dealer you can reimburse it via Spendesk. (Spendesk is be THE tool of choice here)!
