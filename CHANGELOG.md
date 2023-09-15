@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Update Loki usage guide
+  - Add LogQL basic
+  - Update context and access sections
+  - Update & fix images
+- Add Loki cost guide
+
 ## [0.4.1] - 2023-08-31
 
 ### Fixed
