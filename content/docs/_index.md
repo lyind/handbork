@@ -1,6 +1,12 @@
 ---
-title: Blumentopf
-description: "This is a test page "
-confidentiality: public
+title: "Documentation"
+linkTitle: "Documentation"
+weight: 1
+exclude_search: true
+menu:
+  main:
+    weight: 20
+    pre: <i class='fas fa-book'></i>
 ---
-This page should be in P32, below emergeny 
+
+This is public Giant Swarm Documentation.
