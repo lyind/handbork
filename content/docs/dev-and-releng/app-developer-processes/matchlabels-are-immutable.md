@@ -16,7 +16,7 @@ Blabla
 
 {{% /alert %}}
 
-[Blub]({{< relref "/blub" >}})
+[Blub]({{< relref " / b l u b >}})
 
 If your app has been created from [`template-app`](https://github.com/giantswarm/template-app), helper templates for creating [labels](https://github.com/giantswarm/template-app/blob/master/helm/{APP-NAME}/templates/_helpers.tpl#L18-L31) and [selector labels](https://github.com/giantswarm/template-app/blob/master/helm/{APP-NAME}/templates/_helpers.tpl#L33-L39) exist.
 
