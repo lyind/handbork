@@ -5,7 +5,7 @@ description: |
   This page contains information about P32.
 confidentiality: public
 ---
-This is the placeholder for the documentation of P32. As the entire concept is still wip, only current google docs will be linked. In the future you can find a proper documentation.
+This is the placeholder for the documentation of P32. As the entire concept is still WIP, only current Google docs will be linked. In the future you can find a proper documentation. We like PRs.
 
 _Information Sources:_
 
