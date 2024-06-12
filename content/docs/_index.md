@@ -1,12 +1,6 @@
 ---
-title: "Documentation"
-linkTitle: "Documentation"
-weight: 1
-exclude_search: true
-menu:
-  main:
-    weight: 20
-    pre: <i class='fas fa-book'></i>
+title: Blabla
+description: Some page under P32
+confidentiality: operational
 ---
-
-This is public Giant Swarm Documentation.
+test test
